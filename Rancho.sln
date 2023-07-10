@@ -82,7 +82,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution_items", "solution_
 		.editorconfig = .editorconfig
 		pm2.json = pm2.json
 		pm2.yaml = pm2.yaml
-		readme.md = readme.md
 		global.json = global.json
 		.releaserc.yaml = .releaserc.yaml
 		update-version.sh = update-version.sh

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\src\Services\Feedings\Rancho.Services.Feeding.Api\Rancho.Services.Feeding.Api.csproj" />
+    <ProjectReference Include="..\..\..\..\src\Services\Feedings\Rancho.Services.Feeding\Rancho.Services.Feeding.csproj" />
+    <ProjectReference Include="..\..\..\..\src\Services\Identity\Rancho.Services.Identity.Api\Rancho.Services.Identity.Api.csproj" />
+    <ProjectReference Include="..\..\..\..\src\Services\Identity\Rancho.Services.Identity\Rancho.Services.Identity.csproj" />
+    <ProjectReference Include="..\..\..\Shared\Tests.Shared\Tests.Shared.csproj" />
+  </ItemGroup>
+
+  <!--  We should add this reference in each test project-->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="coverlet.msbuild">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fakes\Customers\Dtos" />
+    <Folder Include="Fakes\Customers\Queries" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+{
+  "name": "rancho-microservices",
+  "version": "1.0.0",
+  "description": "rancho-microservices",
+  "scripts": {
+    "prepare": "husky install && dotnet tool restore",
+    "install-dev-cert-bash": "curl -sSL https://aka.ms/getvsdbgsh | bash /dev/stdin -v vs2019 -l ~/vsdbg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehdihadeli/rancho-microservices.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehdihadeli/rancho-microservices/issues"
+  },
+  "homepage": "https://github.com/mehdihadeli/rancho-microservices#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "husky": "^8.0.3"
+  },
+  "dependencies": {
+    "@ngx-translate/core": "^14.0.0"
+  }
+}
